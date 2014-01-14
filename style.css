@@ -11,15 +11,18 @@
 		font-size: 12pt;
 		font-weight: 400;
 		color: #9E9E9E;
+		min-width: 576px;
 	}
 	
 	h1, h2, h3 { margin: 0; padding: 0; }
+	h1		   { font-size: 48px; }
 	p, ol, ul  { margin-top: 0; }
 	ol, ul     { padding: 0; list-style: none;}
-	p          { line-height: 180%; }
+	p, a 	   { font-size: 18px; }
+	p          { line-height: 140%; }
 	a          { color: #4B88C0; text-decoration: none;}
 	a:hover    { color: #3A6892; }
-	.container { width: 1200px; margin: 0px auto; }
+	.container { width: 80%; margin: 0px auto; }
 
 /* ======================================================================== */
 
@@ -40,10 +43,9 @@
 		height: 120px;
 	}
 
-	#title
+	#banner > ul > li
 	{
-		padding-top: 50px;
-		padding-bottom: 10px;
+		display: inline;
 	}
 
 	#footer 
@@ -51,7 +53,45 @@
 	    position: absolute;
 	    bottom: 0;
 		width: 100%;	    
-	    font-size: 10pt;
 	    text-align: center;
+	    background-color: #202020;
+	    padding-top: 6px;
 	}
 
+	#footer > p
+	{
+		font-size: 9pt;
+	}
+
+	#page
+	{
+		margin-top: 40px;
+		width: 75%;
+	}
+
+	#profile
+	{
+		float: left;
+		width: 20%;
+		text-align: center;
+		margin-top: 12px;
+	}
+
+	#profile > img
+	{
+		width: 90%;
+		margin: 0 auto;
+		border: 4px solid white;
+	}
+
+	#bio
+	{
+		float: left;
+		width: 75%;
+		margin-left: 5%;
+	}
+
+	#bio > h1
+	{
+		font-size: 42px;
+	}
