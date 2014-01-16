@@ -1,0 +1,82 @@
+/* Style Sheet for Gabriel Blan.co */
+
+	html, body { height: 100%;}
+	
+	body {
+		margin: 0px;
+		padding: 0px;
+		font-family: 'Source Sans Pro', sans-serif;
+		font-size: 12pt;
+		font-weight: 400;
+	}
+	
+	h1, h2, h3 { margin: 0; padding: 0; }
+	p, ol, ul  { margin-top: 0; }
+	ol, ul     { padding: 0; margin: 0; list-style: none;}
+	p, a 	   { font-size: 18px; }
+	p          { line-height: 140%; }
+	a          { color: #4B88C0; text-decoration: none;}
+	a:hover    { color: #3A6892; }
+	.container { width: 80%; margin: 0px auto; }
+
+/* ======================================================================== */
+
+	body {
+		background-image: url(../img/nyc.jpg) ;
+		background-attachment: fixed;
+		background-position: center center;
+		background-repeat: no-repeat;
+	  	-webkit-background-size: cover;
+	  	-moz-background-size: cover;
+	  	-o-background-size: cover;
+	  	background-size: cover;
+	}
+
+	#banner {
+    	width: 100%;
+    	text-align: center;	
+    	background-color: #ffffff;
+	}
+
+	#links > ul > li {
+		display: inline;
+		margin: 0 2px;	
+	}
+
+	#profile {
+		text-align: center;
+		padding-top: 40px;
+		margin: 0 auto;
+	}
+
+	#profile img {
+		height: 256px;
+		width: 256px;
+		position: relative;
+		top: 16px;
+	}
+
+	.picture {
+		content: url('../img/profile-circle.png');
+	}
+
+	.picture:hover {
+		content: url('../img/GaB-logo.png');
+	}
+
+
+	#bio {
+		background-color: #2f2f2f;
+		opacity: .85;
+		-webkit-border-radius: 8px;
+		-moz-border-radius: 8px;
+		border-radius: 8px;		
+		width: 80%;
+		margin: 0 auto;
+	}
+
+	#blurb {
+		margin: 60px 100px;
+		padding: 30px 0;
+		color: #AFAFAF;
+	}
