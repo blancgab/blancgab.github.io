@@ -80,3 +80,13 @@
 		padding: 30px 0;
 		color: #AFAFAF;
 	}
+
+
+@media (max-width: 600px) {
+
+	#bio         { width: 90%; }
+	#blurb       { margin: 60px 40px; }
+	#blurb > p,a { font-size: 16px; }
+
+}
+
